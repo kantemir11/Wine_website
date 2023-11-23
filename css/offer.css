@@ -1,0 +1,80 @@
+.offer__content{
+    align-items: center;
+}
+.futuredproducts{
+    display: flex;
+    justify-content: center;
+}
+.offer__content .futuredproducts{
+    margin-top: 163px;
+}
+.offer__info{
+    background-image: url(../img/Rectangle\ 17.png) ;
+    height: 558px;
+    width: 370px;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+.offer__info__2{
+    background-image: url(../img/Rectangle\ 19.png) ;
+    height: 558px;
+    width: 370px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.offer__info__3{
+    background-image: url(../img/Rectangle\ 18.png) ;
+    height: 558px;
+    width: 370px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.offer__title{  
+    font-family: "ChocolateBox";
+    font-size: 24px;
+    font-weight: 400;
+}
+.offer__price{
+    font-family: "poppins";
+    font-size: 36px;
+    font-weight: 700;
+}
+.offer .swiper{
+    height: 620px;
+}
+.swiper-pagination-bullet{
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff;
+}
+.swiper-pagination-bullet-active{
+    background-color: #E2B024;
+}
+.offer .swiper::after{
+    position: absolute;
+    opacity: 0.7;
+    content: '';
+    width: 33.333%  ;
+    left: 0;
+    height: 620px;
+    top: 0;
+    background: #000;
+    z-index: 2;
+}
+.offer .swiper::before{
+    position: absolute;
+    opacity: 0.6;
+    content: '';
+    width: 33.333%;
+    right: 0;
+    height: 600px;
+    top: 0;
+    background: #000;
+    z-index: 2;
+}
+.offer_wine{
+    justify-content: space-around;
+}
+.swiper-container{
+    width: 33.333%;
+}

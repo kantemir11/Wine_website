@@ -1,0 +1,53 @@
+.col-1{
+    max-width: 8.3333%;
+}
+.col-2{
+    max-width: 16.6666%;
+}
+.col-3{
+    max-width: 25%;
+}
+.col-4{
+    max-width: 33.3333%;
+}
+.col-5{
+    max-width: 41.6666%;
+}
+.col-6{
+    max-width: 50%;
+}
+.col-7{
+    max-width: 58.3333%;
+}
+.col-8{
+    max-width: 64.6666%;
+}
+.col-9{
+    max-width: 75%;
+}
+.col-10{
+    max-width: 83.3333%;
+}
+.col-11{
+    max-width: 91.6666%;
+}
+.col-12{
+    max-width: 100%;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    cursor: default;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+button{
+    cursor: pointer;
+}

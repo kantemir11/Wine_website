@@ -1,0 +1,24 @@
+@import "./base.css";
+@import "./header.css";
+@import "./buttons.css";
+@import "./hero.css";
+@import "./underhero.css";
+@import "./future.css";
+@import "./review.css";
+@import "./offer.css";
+@import "./events.css";
+@import "./contact.css";
+@import "./newsletter.css";
+@import "./footer.css";
+
+
+
+
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face{
+    font-family: "ChocolateBox";
+    src: url("../fonts/C_BOX.TTF");
+}

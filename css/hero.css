@@ -1,0 +1,91 @@
+.exp{
+    color: white;
+    margin-top: 190px;
+    font-family: "ChocolateBox";
+    font-size: 24px;
+    font-weight: 400;
+}
+.in_each_bottle:hover .in_each {
+    color: #E2B024;
+}
+.in_each_bottle:hover .bottle{
+    color: white;
+}
+.in_each{
+    cursor: default;
+    color: white;
+    font-family: "ChocolateBox";
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 55px;
+    margin: 0 20px 0 0;
+    transition: .4s;
+}
+.bottle{
+    cursor: default;
+    color: #E2B024;
+    font-family: "ChocolateBox";
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 55px;
+    margin: 0;
+    transition: .4s;
+}
+.info{
+    color: white;
+    width: 745px;
+    text-align: center;
+    font-family: "poppins";
+    font-weight: 300;
+    font-size: 16px;
+}
+.more{
+    color: #E2B024;
+    font-family: "ChocolateBox";    
+    font-size: 16px;
+    transition: .4s;
+}
+.hero__content{
+    flex-direction: column;
+    align-items: center;
+}
+.more:hover{
+    color:white;   
+}
+.info__hidden{
+    display: none;
+}
+@media screen and (max-width: 766px) {
+    .exp{
+        margin-top: 100px;
+        font-size: 12px;
+    }
+    .in_each{
+        font-size: 48px;
+        margin: 0 10px 0 0;
+    }
+    .bottle{
+        font-size: 48px;
+    }
+    .info{
+        width: 372px;
+        font-size: 10px;
+    }
+    .more{ 
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .exp{
+        margin-top: 100px;
+        font-size: 12px;
+    }
+    .in_each{
+        font-size: 24px;
+        margin: 0 10px 0 0;
+    }
+    .bottle{
+        font-size: 24px;
+    }
+
+}

@@ -1,0 +1,126 @@
+.events__content{
+    background: #18191A;
+    max-height: 410px;
+}
+.events__right{
+    max-width: 512px;
+    margin-left: 30px;
+}
+.events__little{
+    margin-top: 155px;
+}
+.events__title{
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: 600;
+    margin: 63px 0 0 0;
+}
+.featured{
+    cursor: default;
+    margin-right: 10px;
+}
+.fevents{
+    cursor: default;
+}
+.events__suptitle{
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+.events__info{
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 45px;
+    font-style: normal;
+}
+.events__more{
+    color: #E2B024;
+    font-family: "ChocolateBox";
+    font-size: 18px;
+    font-weight: 400;
+}
+.events__more:hover{
+    color: black;
+}
+.featured__events{
+    justify-content: center;
+    font-family: "ChocolateBox";
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    transition: 0.5s;
+}
+.fevents{
+    color: #E2B024;
+}
+.events__little:hover .fevents{
+    color: white;
+}
+.events__little:hover .featured{
+    color: #E2B024;
+}
+.event .swiper-button-next::after{
+    color: #E2B024;
+    font-size: 30px;
+    left: 0;
+    right: 0;
+}
+.event .swiper-button-prev::after{
+    color: #E2B024;
+    font-size: 30px;
+    left: 50%;
+}
+.circle{
+    border:1px solid #E2B024;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+@media screen and (max-width:1050px) {
+    .events__right{
+        max-width: 40%;
+        margin-left: 100px;
+    }
+    .events__title{
+        font-size: 18px;
+        margin: 15px 0 0 0;
+    }
+    .events__little{
+        margin-top: 50px;
+    }
+    .events__suptitle{
+        font-size: 12px;
+    }
+    .events__info{
+        font-family: "poppins";
+        font-size: 12px;
+        margin-bottom:10px ;
+    }
+    .events__more{
+        font-size: 12px;
+    }
+    .events__image{
+        margin-left: 75px;
+        max-width: 90%;
+    }
+    .event .swiper-button-next::after{
+        font-size: 15px;
+    }
+    .event .swiper-button-prev::after{
+        font-size: 15px;
+    }
+    .circle{
+        border:1px solid #E2B024;
+        border-radius: 50%;
+        padding: 0 8px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .events__image{
+       display: none;
+    }
+    .events__right{
+        max-width: 50%;
+    }
+}
