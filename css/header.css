@@ -1,0 +1,167 @@
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex;
+/* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    z-index: 11;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  /* контейнер меню */
+.menu__box {
+  z-index: 8;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #18191A;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    z-index: 9;
+    display: block;
+    padding: 12px 24px;
+    color: #E2B024;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .menu__item2{
+    z-index: 9;
+    display: none;
+    padding: 12px 24px;
+    color: #E2B024;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background: #E2B024;
+    color: black;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: 0;
+  }
+
+
+
+.slogan{
+    color: #FFFFFF;
+    font-family: "poppins";
+    align-items: center;
+    font-size: 12px;
+}
+.ssylki{
+    width: 246px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    position: relative;
+    width: 126px;
+    justify-content: space-between;
+}
+.lupa{
+    width: 18px;
+}
+.header__content{
+    justify-content: space-between;
+    
+}
+.poisk{
+    width: 408px ;
+    justify-content: space-between ;
+}
+.ssylka{
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+.ssylka{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "poppins";
+    font-size: 12px;
+}
+.ssylka:hover{
+    color: #E2B024;
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 400;
+}
+.logo{
+    margin-left: 17%;
+    transition: 1.5s;
+}
+.logo:hover{
+    transform: rotateY(360deg);
+}
+@media screen and (max-width: 910px) {
+  .menu__box{
+    height: 600px;
+  }
+  .menu__item2{
+    display: block;
+  }
+  .ssylki{
+    display: none;
+  }
+  .lupa{
+    display: none;
+  }
+  .poisk{
+    max-width: 20px;
+  }
+  .logo{
+    margin: 0 100px 0 0;
+  }
+}

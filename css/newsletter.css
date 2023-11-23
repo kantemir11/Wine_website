@@ -1,0 +1,67 @@
+.newsletter__content{
+    flex-direction: column;
+    align-items: center;    
+}
+.newsletter__title{
+        font-family: "ChocolateBox";
+        font-size: 48px;
+        margin:0;
+        font-weight: 400;
+        text-align: center;
+        color: #E2B024;
+}
+.newsletter__suptitle{
+    text-align: center;
+    font-size: 18px;
+    font-family: "poppins";
+    font-weight: 400;
+    margin: 0;
+}
+.newsletter__email{
+    width: 444px;
+    background: black;
+}
+.newsletter__input{
+    min-height: 64px;
+    margin-top: 69px;
+}
+.newsletter__label{
+    align-items: center;
+    justify-content: center;
+    width:127px;
+    background: #E2B024;
+    color: #1f1f1f;
+    font-size: 18px;
+    font-family: "poppins";
+    transition: .5s;
+    cursor: pointer;
+}
+input {
+    padding-left: 34px;
+    color: white;
+}
+.newsletter{
+    margin-top: 150px;
+    min-height: 332px;
+    background: #18191A;
+}
+.newsletter__label:hover{
+   background-color: black;
+   color: #E2B024;
+}
+.newsletter__email::placeholder{
+    font-family: "poppins";
+    font-size: 18px;
+    color: white;
+}
+@media screen and (max-width: 650px) {
+    .newsletter__email{
+        width: 222px;
+    }
+    .newsletter__label{
+        width:64px;
+    }
+    .newsletter__label{
+        font-size: 12px;
+    }
+}   

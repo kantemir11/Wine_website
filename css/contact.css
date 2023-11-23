@@ -1,0 +1,126 @@
+.contact__left{
+    max-width: 466px;
+    margin-right: 35px;
+}
+.contact__content{
+    max-width: 1170px;
+}
+.contact__info{
+    margin-left: 30px;
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 300;
+}
+.contact__images{
+    margin-top: 45px;
+}
+.contact__text{
+    margin: 0 0 77px 0;
+    font-family: "poppins";
+    font-weight: 300;
+    font-size: 18px;
+}
+.contact__content{
+    flex-direction: column;
+    align-items: center;
+}
+.contact__name1{
+    width: 620px;
+    background: black;
+    border: 1px solid white;
+    min-height: 64px;
+    position: absolute;
+}
+.contact__name2{
+    background-color: black;
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    left: 41px;
+    top: -20px;
+    margin-bottom: 55px;
+}
+.contact__name3{
+    width: 620px;
+    background: black;
+    border: 1px solid white;
+    min-height: 133px;
+    position: absolute;
+}
+.contact__icn{
+    margin-right: 56px;
+    margin-top: 60px;
+    transition: 1s;
+}
+.contact__icn:hover{
+    transform: rotateY(360deg);
+}
+.contact__img{
+    transition: 1s;
+}
+.contact__img:hover{
+    transform: rotateY(360deg);
+}
+.contact__info{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+.contact__info:hover{
+    color: #E2B024;
+}
+.contact__content .futuredproducts{
+    margin-top: 150px;
+}
+.contact__send{
+    cursor: pointer;
+    border: none;
+    margin-top: 69px;
+    height: 82px;
+    width: 200px;
+    background: #E2B024;
+    color: #18191A;
+    font-family: "poppins";
+    font-size: 36px;
+    font-weight: 500;
+    transition: .5s;
+}
+.contact__send:hover{
+    background: #18191A;
+    color:#E2B024
+}
+@media screen and (max-width: 868px) {
+    .contact__text{
+        font-size: 12px;
+    }
+    .contact__info{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .contact__name1{
+        width: 25%;
+    }   
+    .contact__name3{
+        width:25%;
+    }   
+    
+}
+@media screen and (max-width: 620px) {
+   .contact__send{
+    width: 100px;
+    font-size: 18px;
+   }
+    
+}
+@media screen and (max-width: 780px) {
+     .contact__left{
+         max-width: 50%;
+     }
+ }
+ @media screen and (max-width: 500px) {
+    .contact__icn{
+        max-width: 50%;
+    }
+}
